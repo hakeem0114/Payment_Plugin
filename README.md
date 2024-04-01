@@ -6,12 +6,13 @@ This project implements a full responsive ysimplified payment processing applica
 1. [Overview](#overview)
 2. [OOP Principles and Design Patterns](#oop-principles-and-design-patterns)
 3. [JavaScript and TypeScript Considerations](#javascript-and-typescript-considerations)
-4. [Setup and Run Instructions](#setup-and-run-instructions)
-5. [Adding a New Mock Service](#adding-a-new-mock-service)
-6. [Reasons Behind Design Choices](#reasons-behind-design-choices)
-7. [Lessons Learned](#lessons-learned)
-8. [Future Improvements](#future-improvements)
-9. [Deployment](#deployment)
+4. [Tools & Libraries](#tools--libraries)
+5. [Setup and Run Instructions](#setup-and-run-instructions)
+6. [Adding a New Mock Service](#adding-a-new-mock-service)
+7. [Reasons Behind Design Choices](#reasons-behind-design-choices)
+8. [Lessons Learned](#lessons-learned)
+9. [Future Improvements](#future-improvements)
+10. [Deployment](#deployment)
 
 ## Overview
 
@@ -27,6 +28,15 @@ In this context, plugins serve as wrappers for modifying payment components or f
 
 While TypeScript would enforce strict typing and provide native support for OOP concepts, JavaScript's syntactic sugar facilitated the implementation of OOP principles and design patterns. In future iterations, TypeScript could enhance code robustness and maintainability.
 
+## Tools & Libraries
+
+- **Vite**: Rapid bundler used to start and bundle full-stack applications efficiently, with excellent documentation.
+- **React Router DOM**: Library for declarative routing in React applications. Although initially installed for real payment gateways, it was later decided to keep everything on one page for the initial submission.
+- **React Icons**: Highly supported library for responsive and professional icons, used for the footer.
+- **Render**: Intuitive free cloud hosting platform with great logging, monitoring, and deploy building services, providing a hassle-free deployment experience.
+- **Tailwind CSS**: Intuitive CSS framework with inline styles and utility classes, facilitating rapid development and responsive design.
+
+
 ## Setup and Run Instructions
 
 To set up and run the application:
@@ -34,7 +44,7 @@ To set up and run the application:
 1. Clone the repository.
 2. Navigate to the project directory.
 3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
+4. Run `npm run dev` to start the development server.
 5. Access the application at `http://localhost:5173` in your web browser.
 
 ## Adding a New Mock Service
