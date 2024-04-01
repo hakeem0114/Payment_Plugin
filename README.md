@@ -33,7 +33,6 @@ While TypeScript would enforce strict typing and provide native support for OOP 
 - **Vite**: Rapid bundler used to start and bundle full-stack applications efficiently, with excellent documentation.
 - **React Router DOM**: Library for declarative routing in React applications. Although initially installed for real payment gateways, it was later decided to keep everything on one page for the initial submission.
 - **React Icons**: Highly supported library for responsive and professional icons, used for the footer.
-- **Render**: Intuitive free cloud hosting platform with great logging, monitoring, and deploy building services, providing a hassle-free deployment experience.
 - **Tailwind CSS**: Intuitive CSS framework with inline styles and utility classes, facilitating rapid development and responsive design.
 
 
@@ -93,8 +92,8 @@ Some potential areas for improvement in the future include:
 
 ## Deployment
 
-The application is deployed on Render cloud for easy access and demonstration.
+The application is deployed on Github pages for easy access and demonstration.
 
 ```
-https://payment-plugin.onrender.com/
+https://hakeem0114.github.io/Payment_Plugin/
 ```
