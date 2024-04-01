@@ -32,7 +32,7 @@ export default function Home(){
    }
     
   return (
-    <main className="w-full h-fit 
+    <main className="w-full min-h-screen
                  text-zinc-200     
                   mx-auto flex flex-col justify-center items-center"
     >
