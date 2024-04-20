@@ -1,6 +1,6 @@
 # Payment Processor Project
 
-This project implements a full responsive ysimplified payment processing application using React, with a plugin system for easy addition of new payment methods.
+This project implements a full responsive simplified payment processing application using React, with a plugin system for easy addition of new payment methods.
 
 ## Table of Contents
 1. [Overview](#overview)
